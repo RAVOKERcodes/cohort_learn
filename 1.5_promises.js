@@ -31,3 +31,17 @@
 
 //=============================================================//
 
+// function ravo(){
+
+//     let p= new Promise(function(resolve){      
+//        setTimeout(resolve,2000)
+//     });
+//     return p
+
+// }
+
+// ravo().then(function(){             
+//   console.log("arrived") ;
+// }) 
+
+//=============================================================//

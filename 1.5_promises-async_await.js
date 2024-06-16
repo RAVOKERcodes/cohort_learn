@@ -1,4 +1,10 @@
 
+// syntaitacal sugar    -_-
+
+
+
+// [1.5.png]
+
 
 
 //=============================================================//
@@ -43,5 +49,31 @@
 // ravo().then(function(){             
 //   console.log("arrived") ;
 // }) 
+
+//=============================================================//
+///////////////////////async await///////////////////////////////
+//=============================================================//
+
+// function ravo(){
+
+//     let p= new Promise(function(resolve){     
+//            // resolve("hope");
+
+//             setTimeout(()=>{resolve("hholla")},2000)
+//     });
+//     return p
+
+// }
+
+// async function main(){
+//     let data = await ravo();     // thread will wait here
+//     console.log("after await");  // it will run with data
+//     console.log(data);
+// }
+// //no callbacks , no .then yeeee!! easy
+
+// main();
+
+// console.log("after main"); // this will call imideatly
 
 //=============================================================//
